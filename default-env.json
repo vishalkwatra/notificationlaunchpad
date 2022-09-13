@@ -1,0 +1,71 @@
+{
+	"VCAP_SERVICES": {
+		"xsuaa": [
+			{
+				"label": "xsuaa",
+				"provider": null,
+				"plan": "application",
+				"name": "managed-fiori-uaa",
+				"tags": [
+					"xsuaa"
+				],
+				"instance_guid": "d11d9505-a2a7-4d29-8bf2-356dd2fc27ad",
+				"instance_name": "managed-fiori-uaa",
+				"binding_guid": "13fe8d97-8b81-4c84-87c6-45e5e3989ec4",
+				"binding_name": null,
+				"credentials": {
+					"tenantmode": "dedicated",
+					"sburl": "https://internal-xsuaa.authentication.us10.hana.ondemand.com",
+					"subaccountid": "38fc1bcf-efdd-421d-ad5d-a14df3ad8a43",
+					"credential-type": "instance-secret",
+					"clientid": "sb-managed_fiori_app!t102870",
+					"xsappname": "managed_fiori_app!t102870",
+					"clientsecret": "eYC/lw58DwvjDZh7hHIZnvNcTW4=",
+					"url": "https://cd180e90trial.authentication.us10.hana.ondemand.com",
+					"uaadomain": "authentication.us10.hana.ondemand.com",
+					"verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvpxdrYcsKW/hyyzwg6GX\nLBBae8iRkWjs510rdCHwxd0D5D0dXCZm3mI9Jb7s9soDvB/DzLI/A4nwqG6r/RWQ\nvOL98U2AwOjC5qCdkzMlia9nhYEkOhxUmjH44B4lgI3a8Z8b27gXV3k2xiy5eaXd\nCZp1RhvZs/EKgZcBBYXhH3XfESJzYBJwur6M9/YuP8i2H+Kpr0CgFw34O/JqtFI1\nddcr8nGRQJZPAoRkBLmriHWIM0AWgc2KvF3v5cPscF+DFP2mHO8q0WiTzBHUsBO9\n+PDNqqMa2cX/pyJItqDprQLDK5qEGw4OFjTThidkykqUDHyFL3tkbgSVtbhH3wX8\nMwIDAQAB\n-----END PUBLIC KEY-----",
+					"apiurl": "https://api.authentication.us10.hana.ondemand.com",
+					"identityzone": "cd180e90trial",
+					"identityzoneid": "38fc1bcf-efdd-421d-ad5d-a14df3ad8a43",
+					"tenantid": "38fc1bcf-efdd-421d-ad5d-a14df3ad8a43",
+					"zoneid": "38fc1bcf-efdd-421d-ad5d-a14df3ad8a43"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		],
+		"destination": [
+			{
+				"label": "destination",
+				"provider": null,
+				"plan": "lite",
+				"name": "managed-fiori-destination",
+				"tags": [
+					"destination",
+					"conn",
+					"connsvc"
+				],
+				"instance_guid": "401414b8-af8b-41d4-95f2-18908373bd9a",
+				"instance_name": "managed-fiori-destination",
+				"binding_guid": "570b3296-9ecb-4a69-99c7-83c9b6a2377e",
+				"binding_name": null,
+				"credentials": {
+					"tenantmode": "dedicated",
+					"clientid": "sb-clone401414b8af8b41d495f218908373bd9a!b102870|destination-xsappname!b62",
+					"credential-type": "binding-secret",
+					"xsappname": "clone401414b8af8b41d495f218908373bd9a!b102870|destination-xsappname!b62",
+					"clientsecret": "570b3296-9ecb-4a69-99c7-83c9b6a2377e$Z7M80-3GMJoACqqTcjLeSrIBfwGZdvMIOljWfE0xtis=",
+					"uri": "https://destination-configuration.cfapps.us10.hana.ondemand.com",
+					"url": "https://cd180e90trial.authentication.us10.hana.ondemand.com",
+					"uaadomain": "authentication.us10.hana.ondemand.com",
+					"instanceid": "401414b8-af8b-41d4-95f2-18908373bd9a",
+					"verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvpxdrYcsKW/hyyzwg6GX\nLBBae8iRkWjs510rdCHwxd0D5D0dXCZm3mI9Jb7s9soDvB/DzLI/A4nwqG6r/RWQ\nvOL98U2AwOjC5qCdkzMlia9nhYEkOhxUmjH44B4lgI3a8Z8b27gXV3k2xiy5eaXd\nCZp1RhvZs/EKgZcBBYXhH3XfESJzYBJwur6M9/YuP8i2H+Kpr0CgFw34O/JqtFI1\nddcr8nGRQJZPAoRkBLmriHWIM0AWgc2KvF3v5cPscF+DFP2mHO8q0WiTzBHUsBO9\n+PDNqqMa2cX/pyJItqDprQLDK5qEGw4OFjTThidkykqUDHyFL3tkbgSVtbhH3wX8\nMwIDAQAB\n-----END PUBLIC KEY-----",
+					"identityzone": "cd180e90trial",
+					"tenantid": "38fc1bcf-efdd-421d-ad5d-a14df3ad8a43"
+				},
+				"syslog_drain_url": null,
+				"volume_mounts": []
+			}
+		]
+	}
+}

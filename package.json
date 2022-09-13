@@ -1,0 +1,18 @@
+{
+  "name": "notification",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node create.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap-cloud-sdk/core": "^1.54.2",
+    "@sap-cloud-sdk/util": "^2.8.0",
+    "@sap/xsenv": "^3.3.2",
+    "@sap/xssec": "^3.2.13",
+    "axios": "^0.27.2",
+    "passport": "^0.6.0"
+  }
+}

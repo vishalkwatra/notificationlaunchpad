@@ -1,0 +1,11 @@
+---
+applications:
+- name: createnotification
+  routes:
+    - route: https://notifications-abcd.cfapps.us10-001.hana.ondemand.com
+  memory: 256M
+  buildpacks:
+    - nodejs_buildpack
+  services:
+    - managed-fiori-uaa
+    - managed-fiori-destination
